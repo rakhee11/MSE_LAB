@@ -1,0 +1,102 @@
+Q1> Explore the DVM instructions and prepare a summary of the same atleast for 5 instructions in a detailed format
+i) instruction name:
+ii) syntax
+iii)example
+
+
+ANS:
+Dalvik Instruction Set:
+
+1>
+Instruction:
+move vA, vB
+Arguements:
+A: destination register (4 bits)
+B: source register (4 bits)
+Description:
+Move the contents of one non-object register to another.
+--------------------------------------------------------
+2>
+Instruction:
+move-wide/from16 vAA, vBBBB
+Arguements:
+A: destination register pair (8 bits)
+B: source register pair (16 bits)
+Description:
+Move the contents of one register-pair to another.
+--------------------------------------------------------
+3>
+Instruction:
+return vAA
+Arguements:
+A: return value register (8 bits)
+Description:
+Return from a single-width (32-bit) non-object value-returning method
+--------------------------------------------------------
+4>
+Instruction:
+const/4 vA, #+B
+Arguements:
+A: destination register (4 bits)
+B: signed int (4 bits)
+Description:
+Move the given literal value (sign-extended to 32 bits) into the specified register.
+--------------------------------------------------------
+5>
+Instruction:
+monitor-enter vAA
+Arguements:
+A: reference-bearing register (8 bits)
+Description:
+Acquire the monitor for the indicated object.
+
+
+Q2> Differentiate between mobile and cloud computing.
+ANS:
+Cloud Computing:
+1>allows you to store your files and folders in a “cloud” area on the Internet,
+allowing you access to all of your files and folders wherever you are in the 
+world but you do need a physical device with Internet access to access it.
+2>lack of control over personal data.Insufficient information regarding how,
+where and by whom data is being processed.
+3) The application would function as a communicator with the cloud server which function
+would be to display the data received by it.
+4) The increased use of cloud computing could lead to a reduction in demand for high storage capacity consumer end devices, due to cheaper low storage devices that stream all content via the cloud becoming more popular.
+
+-----------------------------------------------------------------------------
+Mobile computing:
+1>It is taking a physical device with you. This could be a laptop or a mobile phone 
+or some device which enables you to telework – working wherever you go because of
+the small size of the device you’re using.
+2) Allows us to store files on ‘physical devices’ like laptop or mobile phones.
+3) The application might interact with servers on the Internet to get
+information  the application needed.
+4) Screens and keyboards tend to be small, which may make them hard to use. Alternate input methods such as speech or handwriting recognition require training.
+5>communications no longer run over a private network.
+
+Q3> Give an example of an application simulating an environment of  context aware computing and justify.
+
+Context In general the term “Context” refers to the general situation of the person, device
+or application.
+Over the years this general definition has been broadened and clarified.
+Context is any information that can be used to characterize the situation
+of an entity. An entity is a person, place, or object that is considered
+relevant to the interaction between a user and an application, including
+the user and applications themselves.
+Context-aware computing : “Context-aware computing” has been established as the practice of incorporating
+contextual information into services to allow them to react and adapt to their
+environment .
+         
+ EXAMPLE:
+ Application in health care
+explanation:
+Modern integrated voice and data communications equips the hospital staff with smart phones to communicate 
+vocally with each other, but preferably to look up the next task to be executed and to capture the next report 
+to be noted.However, all attempts to support staff with such approaches are hampered till failure of acceptance 
+with the need to look up upon a new event for patient identities, order lists and work schedules. Hence a well 
+suited solution has to get rid of such manual interaction with a tiny screen and therefore serves the user with
+-automated identifying actual patient and local environment upon approach,
+-automated recording the events with coming to and leaving off the actual patient,
+-automated presentation of the orders or service due on the current location and with supported documenting 
+the required information keying in a minimum of data into prepared form entries.
+
